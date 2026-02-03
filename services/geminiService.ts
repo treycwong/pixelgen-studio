@@ -9,7 +9,7 @@ export const processPixelArt = async (
   strength: number = 2,
   aspectRatio: "1:1" | "3:4" | "4:3" | "9:16" | "16:9" = "1:1"
 ): Promise<string> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
   
   // Define explicit grid sizes and hardware constraints for Gemini
   // These specific resolutions help the model understand the "chunky" requirement
