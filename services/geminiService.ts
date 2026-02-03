@@ -1,7 +1,7 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const MODEL_NAME = 'gemini-2.5-flash-image';
+const MODEL_NAME = 'gemini-1.5-flash';
 
 export const processPixelArt = async (
   base64Image: string, 
