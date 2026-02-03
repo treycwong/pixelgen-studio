@@ -1,0 +1,7 @@
+{
+  "name": "PixelGen 8-Bit Studio",
+  "description": "Transform any image into stunning 8-bit pixel game art using Gemini 2.5 Flash Image. Edit with simple text commands like 'add a dragon' or 'make it retro'.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
